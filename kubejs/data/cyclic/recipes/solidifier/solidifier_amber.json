@@ -1,0 +1,22 @@
+{
+  "type": "cyclic:solidifier",
+  "ingredients":[ {
+    "item": "cyclic:fireball"
+  },
+   {
+    "item": "mowziesmobs:naga_fang"
+  }],
+  "mix": {
+    "fluid": "cyclic:honey",
+    "tag": "forge:honey",
+    "count": 500
+  },
+	"energy": {
+		"rfpertick": 100,
+		"ticks": 120
+	},
+  "result": {
+    "item": "cyclic:gem_amber",
+  	"count": 3
+  }
+}

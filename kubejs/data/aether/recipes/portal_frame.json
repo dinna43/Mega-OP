@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "divinerpg:twilight_demon_crystal"
+    },
+    "D": {
+      "item": "divinerpg:densos_crystal"
+    },
+    "R": {
+      "item": "divinerpg:reyvor_crystal"
+    },
+    "H": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "pattern": [
+    "HTH",
+    "HDH",
+    "HRH"
+  ],
+  "result": {
+    "item": "aether:aether_portal_frame"
+  },
+  "show_notification": true
+}

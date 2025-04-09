@@ -1,0 +1,26 @@
+{
+	"type": "cyclic:solidifier",
+	"ingredients": [
+		{
+			"item": "blue_skies:pyrope_gem"
+		},
+		{
+			"item": "bosses_of_mass_destruction:blazing_eye"
+		},
+		{
+			"item": "mowziesmobs:umvuthana_mask_fury"
+		}
+	],
+	"mix": {
+		"tag": "forge:magma",
+		"count": 2000
+	},
+	"energy": {
+		"rfpertick": 100,
+		"ticks": 120
+	},
+	"result": {
+		"item": "cyclic:fireball",
+		"count": 3
+	}
+}
