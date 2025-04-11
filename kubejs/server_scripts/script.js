@@ -1,42 +1,41 @@
-ServerEvents.tags('item', event => {
-	event.remove('twilightforest:portal/activator', 'forge:gems/diamond')
+//tags
+
+ServerEvents.tags('item', event => {//event.start
+	event.removeAll('twilightforest:portal/activator')
+
+	event.add('twilightforest:portal/activator', 'kubejs:metal_dragon_skull')
+//event.end
 })
 
-ServerEvents.recipes(event => {
+//recipes.remove
+
+ServerEvents.recipes(event => {//event.start
 event.remove({ id: 'divinerpg:shapeless/divine_rock_shapeless'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'forbidden_arcanus:obsidian_with_iron'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'cyclic:smelting/fireball'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'ic2:machine_block'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'mekanism:steel_casing'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'ae2:transform/fluix_crystals'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'ae2:transform/fluix_crystal'})
-})
 
-ServerEvents.recipes(event => {
 event.remove({ id: 'mekanism:metallurgic_infuser'})
+
+event.remove({ mod: 'eyesoficeandfire'})
+
+//event.end
 })
 
-ServerEvents.recipes(event => {
+//recipes.custom.craft
+
+ServerEvents.recipes(event => {//event.start
 event.shaped(
-  Item.of('ic2:machine_block', 1), // arg 1: output
+  Item.of('ic2:machine_block', 1),
   [
     'aaa',
     'aba', 
@@ -47,29 +46,69 @@ event.shaped(
     b: 'cyclic:gem_obsidian'
   }
 )
-}
-)
 
-ServerEvents.recipes(event => {
 event.shaped(
-  Item.of('mekanism:metallurgic_infuser', 1), // arg 1: output
-  [
+  Item.of('mekanism:metallurgic_infuser', 1),
+   [
     'asa',
     'zxz', 
     'asa'
-  ],
-  {
+   ],
+   {
     a: 'minecraft:iron_ingot',
     s: 'minecraft:furnace',
     z: 'minecraft:redstone',
     x: 'mekanism:steel_casing'
+   }
+ )
+ 
+ event.shaped(
+  Item.of('eyesoficeandfire:eye_of_fire_dragon', 1),
+  [
+    'zsz',
+    'dad', 
+    'zxz'
+  ],
+  {
+    z: {tag: 'iceandfire:scales/dragon/fire'},
+    x: 'iceandfire:fire_dragon_heart',
+	s: 'iceandfire:fire_dragon_blood',
+	d: 'iceandfire:fire_dragon_flesh',
+	a: 'minecraft:ender_eye'
   }
 )
-}
+
+ event.shaped(
+  Item.of('eyesoficeandfire:eye_of_ice_dragon', 1),
+  [
+    'zsz',
+    'dad', 
+    'zxz'
+  ],
+  {
+	z: {tag: 'iceandfire:scales/dragon/ice'},
+    x: 'iceandfire:ice_dragon_heart',
+	s: 'iceandfire:ice_dragon_blood',
+	d: 'iceandfire:ice_dragon_flesh',
+	a: 'minecraft:ender_eye'
+  }
 )
 
-ServerEvents.recipes(event => {
-event.remove({ mod: 'projecte' })
-}
-)
 
+ event.shaped(
+  Item.of('eyesoficeandfire:eye_of_lightning_dragon', 1),
+  [
+    'zsz',
+    'dad', 
+    'zxz'
+  ],
+  {
+    z: {tag: 'iceandfire:scales/dragon/lightning'},
+    x: 'iceandfire:lightning_dragon_heart',
+	s: 'iceandfire:lightning_dragon_blood',
+	d: 'iceandfire:lightning_dragon_flesh',
+	a: 'minecraft:ender_eye'
+  }
+)
+//event.end
+})

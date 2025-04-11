@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "iceandfire:dragonsteel_lightning_ingot"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "kubejs:dragon_steel_lighting"
+  },
+  "temperature": 1200,
+  "time": 60
+}
