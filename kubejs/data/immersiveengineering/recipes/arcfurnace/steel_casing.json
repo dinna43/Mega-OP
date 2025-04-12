@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[{"item":"ic2:complex_circuit"},{"item":"ic2:nuke"},{"item":"ic2:plate_iridium"},{"item":"ic2:uumatter"}],"energy":20000,"input":{"item":"ic2:stabilized_machine_block"},"results":[{"item":"mekanism:steel_casing"}],"time":400}

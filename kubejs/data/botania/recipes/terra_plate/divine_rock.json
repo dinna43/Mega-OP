@@ -1,0 +1,18 @@
+{
+  "type": "botania:terra_plate",
+  "ingredients": [
+    {
+      "item": "ars_elemental:air_focus"
+    },
+    {
+      "item": "divinerpg:divine_shards"
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot"
+    }
+  ],
+  "mana": 500000,
+  "result": {
+    "item": "divinerpg:divine_rock"
+  }
+}

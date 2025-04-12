@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    "def",
+    "zxv"
+  ],
+  "key": {
+    "a": {
+      "item": "mowziesmobs:ice_crystal"
+    },
+    "b": {
+      "item": "blue_skies:aquite"
+    },
+    "c": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "d": {
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    "e": {
+      "item": "forbidden_arcanus:dark_nether_star"
+    },
+    "f": {
+      "item": "forbidden_arcanus:terrastomp_prism"
+    },
+    "z": {
+      "item": "forbidden_arcanus:eternal_stella"
+    },
+    "x": {
+      "item": "forbidden_arcanus:ferrognetic_mixture"
+    },
+    "v": {
+      "item": "mowziesmobs:wrought_helmet"
+    }
+  },
+  "result": {
+    "item": "cyclic:solidifier"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "inputs": [
+        {
+            "item": "minecraft:iron_nugget",
+            "slot": 0
+        },
+        {
+            "item": "minecraft:iron_nugget",
+            "slot": 1
+        },
+        {
+            "item": "minecraft:iron_nugget",
+            "slot": 4
+        },
+        {
+            "item": "minecraft:iron_nugget",
+            "slot": 5
+        }
+    ],
+    "hephaestus_forge_item": "minecraft:obsidian",
+    "essences": {
+        "aureal": 0,
+        "blood": 500,
+        "souls": 0
+    },
+    "result": {
+        "item": "forbidden_arcanus:obsidian_with_iron",
+        "count": 1
+    }
+}

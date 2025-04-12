@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "IbI",
+    "ICI",
+    "EFE"
+  ],
+  "key":
+  {
+    "b":
+    {
+      "item": "twilightforest:magic_beans"
+    },
+    "I":
+    {
+      "tag": "forge:ingots/iron"
+    },
+    "E":
+    {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+    "F":
+    {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    "C":
+    {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result":
+  {
+    "item": "irons_spellbooks:alchemist_cauldron",
+    "count": 1
+  }
+}

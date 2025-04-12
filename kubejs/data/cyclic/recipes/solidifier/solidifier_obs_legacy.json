@@ -1,0 +1,27 @@
+{
+	"type": "cyclic:solidifier",
+	"ingredients": [
+		{
+			"item": "deeperdarker:soul_crystal"
+		},
+		{
+			"item": "cyclic:gem_amber"
+		},
+		{
+			"item": "cyclic:fireball_dark"
+		}
+	],
+	"energy": {
+		"rfpertick": 1500,
+		"ticks": 300
+	},
+	"mix": {
+		"fluid": "cyclic:honey",
+		"tag": "forge:honey",
+		"count": 1000
+	},
+	"result": {
+		"item": "cyclic:gem_obsidian",
+		"count": 6
+	}
+}
